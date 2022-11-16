@@ -11,7 +11,7 @@ type TemplateVersion struct {
 	TemplateID           string   `json:"template_id,omitempty"`   //nolint:tagliatelle
 	UpdatedAt            string   `json:"updated_at,omitempty"`    //nolint:tagliatelle
 	ThumbnailURL         string   `json:"thumbnail_url,omitempty"` //nolint:tagliatelle
-	Warnings             []string `json:"warnings,omitempty"`
+	Warnings             string `json:"warnings,omitempty"`
 	Active               int      `json:"active,omitempty"`
 	Name                 string   `json:"name,omitempty"`
 	HTMLContent          string   `json:"html_content,omitempty"`           //nolint:tagliatelle
